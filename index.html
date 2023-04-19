@@ -19,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <!--**************HEADER********************-->
@@ -58,18 +59,72 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mobile-menu-open" data-mobile-open>
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
+      <div class="mobile-menu" data-mobile>
+        <div class="container mobile-menu-container">
+        <button type="button" class="mobile-menu-close" data-mobile-close>
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-list list">
+          <li class="mobile-menu-item"><a class="mobile-menu-link mobile-active-link link" href="">Studio</a></li>
+          <li class="mobile-menu-item"><a class="mobile-menu-link link" href="">Portfolio</a></li>
+          <li class="mobile-menu-item"><a class="mobile-menu-link link" href="">Contacts</a></li>
+        </ul>
+        <adress class="mobile-contacts">
+          <ul class="mobile-contacts-menu list">
+            <li class="mobile-contacts-item"><a class="mobile-contacts-information mobile-contacts-information-active link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li class="mobile-contacts-item"><a class="mobile-contacts-information link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+        </adress>
+        <ul class="mobile-social-menu list">
+            <li class="mobile-social-menu-item"><a class="mobile-social-menu-link link" href="">
+                      <svg class="mobile-social-menu-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+            <li class="mobile-social-menu-item">
+                    <a class="mobile-social-menu-link link" href="">
+                      <svg class="mobile-social-menu-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+            <li class="mobile-social-menu-item">
+                    <a class="mobile-social-menu-link link" href="">
+                      <svg class="mobile-social-menu-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+            <li class="mobile-social-menu-item">
+                    <a class="mobile-social-menu-link link" href="">
+                      <svg class="mobile-social-menu-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                </div>
+        </div>
     </header>
     <main>
       <!--**************HERO********************-->
-      <section class="hero section">
+      <!-- <section class="hero section">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-btn" type="button" data-modal-open>
           Order Service
         </button>
-      </section>
+      </section> -->
       <!--**************ADVANTAGES********************-->
-      <section class="advantages">
+      <!-- <section class="advantages">
         <div class="container">
           <h2 class="section-title visually-hidden advantages-title">
             Advantages
@@ -125,9 +180,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--**************ABOUT********************-->
-      <section class="about section">
+      <!-- <section class="about section">
         <div class="container">
           <h2 class="section-title about-title">What are we doing</h2>
           <ul class="about-menu list">
@@ -160,9 +215,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--**************TEAM********************-->
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="container">
           <h2 class="section-title team-title">Our Team</h2>
           <ul class="team-menu list">
@@ -340,9 +395,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--**************CUSTOMERS********************-->
-      <section class="customers section">
+      <!-- <section class="customers section">
         <div class="container">
           <h2 class="section-title customers-title">Customers</h2>
           <ul class="customers-menu list">
@@ -391,9 +446,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!--**************FOOTER********************-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-general-container">
         <div class="page-footer-container">
           <a class="logotype footer-logotype link" href="./index.html"
@@ -537,7 +592,8 @@
           <button type="submit" class="modal-form-submit">Send</button>
         </form>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <script defer src="js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
