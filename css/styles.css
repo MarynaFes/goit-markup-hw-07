@@ -124,7 +124,7 @@ button {
   transition: opacity var(--transition-dur-and-func),
     visibility var(--transition-dur-and-func);
 }
-.mobile-menu.is-hidden {
+.mobile-menu.is-open {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
