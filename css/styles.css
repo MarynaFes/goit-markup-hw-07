@@ -117,7 +117,7 @@ button {
   transition: opacity var(--transition-dur-and-func),
     visibility var(--transition-dur-and-func);
 }
-.mobile-menu.is-open {
+.mobile-menu.is-hidden {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
@@ -381,6 +381,8 @@ button {
 .customers-menu {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 72px 16px;
 }
 .customers-menu-item {
