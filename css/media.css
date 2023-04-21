@@ -255,6 +255,10 @@
   .social-media-item-link:hover {
     background-color: var(--success);
   }
+  .subscribe-form {
+    flex-direction: row;
+    gap: 24px;
+  }
   .subscribe-form-name {
     text-align: left;
   }
@@ -263,6 +267,9 @@
   }
   .subscribe-form-input {
     width: 264px;
+  }
+  .subscribe-form-submit {
+    margin: 0;
   }
   .subscribe-form-submit:hover {
     background-color: var(--pressed-state);
@@ -396,21 +403,22 @@
     padding-bottom: 100px;
     padding-top: 100px;
   }
-  .page-footer-container {
-    margin-right: 120px;
-  }
-  .footer {
-    padding-bottom: 100px;
-    padding-top: 100px;
+  .footer-general-container {
+    max-width: auto;
+    flex-wrap: no-wrap;
+    gap: 0px;
   }
   .page-footer-container {
     margin-right: 120px;
+  }
+  .footer-copy {
+    width: 264px;
   }
   .social-media-container {
     margin-right: 80px;
   }
   .subscribe-form-field {
-    margin-right: 24px;
+    gap: 24px;
   }
   .backdrop {
     position: fixed;
