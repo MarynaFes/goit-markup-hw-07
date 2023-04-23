@@ -96,6 +96,17 @@
       max-width: 768px;
       height: 436px;
     }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/hero-background-image-tab-2x.jpg);
+      }
+    }
     .hero-title {
       font-size: 56px;
       line-height: 1.07;
@@ -299,7 +310,6 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
   }
-
   @media screen and (min-width: 1200px) {
     .container {
       max-width: 1158px;
@@ -338,6 +348,17 @@
       height: 600px;
       padding-top: 188px;
       padding-bottom: 188px;
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/hero-background-image-2x.jpg);
+      }
     }
     .hero-btn {
       margin-top: 48px;
