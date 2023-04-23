@@ -149,34 +149,14 @@
       fill: var(--pressed-state);
     }
     .projects-section {
-      padding-top: 96px;
-      padding-bottom: 120px;
+      padding-top: 64px;
+      padding-bottom: 96px;
     }
     .projects-menu {
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: var(--card-set-horizontal-gap);
-      margin-bottom: 72px;
+      margin-bottom: 64px;
       justify-content: center;
     }
-    .projects-menu-btn {
-      font-family: "Roboto", sans-serif;
-      background-color: var(--light);
-      border: 1px solid var(--accent);
-      border-radius: 4px;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      color: var(--primary-brand);
-      padding: 12px 24px;
-      transition: background-color var(--transition-dur-and-func),
-        box-shadow var(--transition-dur-and-func),
-        border var(--transition-dur-and-func),
-        color var(--transition-dur-and-func);
-    }
-    .projects-menu-btn:hover,
-    .projects-menu-btn:focus {
+    .projects-menu-btn:hover {
       background-color: var(--pressed-state);
       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -184,67 +164,17 @@
       color: var(--white-background);
     }
     .projects-list {
-      display: flex;
       flex-wrap: wrap;
-      row-gap: var(--card-set-vertical-gap);
+      flex-direction: row;
+      row-gap: 72px;
       column-gap: var(--card-set-horizontal-gap);
     }
-    .project-list-item {
-      flex-basis: calc(100% - 2 * var(--card-set-horizontal-gap)) / 3;
-    }
-    .projects-list-link {
-      display: block;
-      transition: box-shadow var(--transition-dur-and-func);
-    }
-    .projects-list-link:hover,
-    .projects-list-link:focus {
+    .projects-list-link:hover {
       box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
-    .projects-list-link:hover .overlay,
-    .projects-list-link:focus .overlay {
+    .projects-list-link:hover .overlay {
       transform: translate(0, 0);
-    }
-    .projects-list-img-wrapper {
-      position: relative;
-      overflow: hidden;
-    }
-    .overlay {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      transform: translate(0, 100%);
-      transition: transform var(--transition-dur-and-func);
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #f4f4fd;
-      padding-top: 40px;
-      padding-left: 32px;
-      padding-right: 32px;
-      background-color: var(--primary-brand);
-    }
-    .projects-list-item-container {
-      padding-bottom: 32px;
-      padding-top: 32px;
-      padding-left: 16px;
-      border: 1px solid #e7e9fc;
-      border-top: none;
-    }
-    .projects-list-title {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-      color: var(--dark);
-      margin-bottom: 8px;
-    }
-    .projects-list-description {
-      line-height: 1.5;
-      color: var(--text);
     }
     .footer-general-container {
       max-width: 768px;
@@ -426,102 +356,16 @@
       width: 168px;
     }
     .projects-section {
-      padding-top: 96px;
+      padding-top: 100px;
       padding-bottom: 120px;
-    }
-    .projects-menu {
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: var(--card-set-horizontal-gap);
-      margin-bottom: 72px;
-      justify-content: center;
-    }
-    .projects-menu-btn {
-      font-family: "Roboto", sans-serif;
-      background-color: var(--light);
-      border: 1px solid var(--accent);
-      border-radius: 4px;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      color: var(--primary-brand);
-      padding: 12px 24px;
-      transition: background-color var(--transition-dur-and-func),
-        box-shadow var(--transition-dur-and-func),
-        border var(--transition-dur-and-func),
-        color var(--transition-dur-and-func);
-    }
-    .projects-menu-btn:hover,
-    .projects-menu-btn:focus {
-      background-color: var(--pressed-state);
-      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-      border: var(--pressed-state);
-      color: var(--white-background);
     }
     .projects-list {
       display: flex;
       flex-wrap: wrap;
       row-gap: var(--card-set-vertical-gap);
-      column-gap: var(--card-set-horizontal-gap);
     }
     .project-list-item {
       flex-basis: calc(100% - 2 * var(--card-set-horizontal-gap)) / 3;
-    }
-    .projects-list-link {
-      display: block;
-      transition: box-shadow var(--transition-dur-and-func);
-    }
-    .projects-list-link:hover,
-    .projects-list-link:focus {
-      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    }
-    .projects-list-link:hover .overlay,
-    .projects-list-link:focus .overlay {
-      transform: translate(0, 0);
-    }
-    .projects-list-img-wrapper {
-      position: relative;
-      overflow: hidden;
-    }
-    .overlay {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      transform: translate(0, 100%);
-      transition: transform var(--transition-dur-and-func);
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #f4f4fd;
-      padding-top: 40px;
-      padding-left: 32px;
-      padding-right: 32px;
-      background-color: var(--primary-brand);
-    }
-    .projects-list-item-container {
-      padding-bottom: 32px;
-      padding-top: 32px;
-      padding-left: 16px;
-      border: 1px solid #e7e9fc;
-      border-top: none;
-    }
-    .projects-list-title {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-      color: var(--dark);
-      margin-bottom: 8px;
-    }
-    .projects-list-description {
-      line-height: 1.5;
-      color: var(--text);
     }
     .footer {
       background-color: var(--dark);
