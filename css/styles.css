@@ -443,7 +443,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
-  padding: 8px 16px;
+  padding: 12px 24px;
   transition: background-color var(--transition-dur-and-func),
     box-shadow var(--transition-dur-and-func),
     border var(--transition-dur-and-func), color var(--transition-dur-and-func);
