@@ -5,6 +5,18 @@
   .mobile-contacts-information-active {
     font-size: 25px;
   }
+  img {
+    width: auto;
+    height: auto;
+  }
+  .projects-list-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+    margin-bottom: 8px;
+  }
 }
 @media screen and (max-width: 427px) {
   .hero-title {
