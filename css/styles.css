@@ -228,7 +228,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-background-image.jpg);
+    url(../images/hero-background-image-mob.jpg);
   background-position: center;
   background-size: cover;
   max-width: 428px;
@@ -524,7 +524,6 @@ button {
   gap: 72px;
 }
 .page-footer-container {
-  margin-bottom: 72px;
   justify-content: center;
 }
 .footer-logotype {
@@ -657,8 +656,9 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 392px;
-  height: 100%;
-  overflow: auto;
+  overflow-y: auto;
+  max-height: 576px;
+  height: 90%;
   background-color: var(--modal-background);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
